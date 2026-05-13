@@ -1,0 +1,21 @@
+[package]
+name = "use-time"
+description = "Composable primitive time utilities for Rust."
+publish = true
+authors.workspace = true
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+rust-version.workspace = true
+readme = "README.md"
+documentation = "https://docs.rs/use-time"
+keywords = ["time", "duration", "clock", "units", "conversion"]
+categories = ["date-and-time"]
+
+[lints]
+workspace = true
+
+[package.metadata.docs.rs]
+all-features = true
